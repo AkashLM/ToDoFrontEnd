@@ -9,9 +9,9 @@
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
     border-radius: 25px;
 }
+
 .Task-Container-Header{
     height: 40px;
     width: 300px;
@@ -47,18 +47,20 @@
 .Task-Container-Add-Btn{
     height: 35px;
     width: 200px;
-    background: rgb(255,255,255);
-    background: linear-gradient(304deg, rgba(255,255,255,1) 0%, rgba(245,139,10,1) 8%, rgba(248,174,84,1) 74%, rgba(255,255,255,1) 100%);
+    background: rgb(19,1,1);
+    background: linear-gradient(90deg, rgba(19,1,1,1) 0%, rgba(245,139,10,1) 45%, rgba(40,28,15,1) 100%, rgba(255,255,255,1) 100%);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 25px;
     padding-top: 10px;
-    color: rgb(228, 224, 215);
+    color: rgb(238, 236, 232);
     text-shadow: 1px 1px rgb(30, 30, 28);
-    border: 1px solid rgb(168, 84, 5);
+    // border: 1px solid rgb(168, 84, 5);
     cursor: pointer;
     font-weight: bold;
+    font-family: 'Lobster', cursive;
+
 
 }
 
@@ -110,6 +112,5 @@
    color: rgb(116, 108, 108);
    background-color: rgb(233, 231, 231);
    cursor: pointer;
-
 }
 

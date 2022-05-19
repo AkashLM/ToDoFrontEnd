@@ -1,18 +1,13 @@
+import "../AddTaskButton/AddButton.scss";
+const AddButton = (Props) => {
+  const { display, setDisplay } = Props;
 
-import '../AddTaskButton/AddButton.scss';
-const AddButton=(Props)=>{
+  function DisplayHandler (){
+    setDisplay(!display)
+  }
 
-    const {display, setDisplay}=Props;
 
-    function displayHandler(){
-        setDisplay(!display);
-    }
-
-    return(
-        <div className="Add-Btn" onClick={displayHandler}>
-        </div>
-    );
-
-}
+  return <div className="Add-Btn" onClick={ DisplayHandler}></div>;
+};
 
 export default AddButton;

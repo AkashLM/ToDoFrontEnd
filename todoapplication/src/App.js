@@ -5,17 +5,17 @@ import { useState } from 'react';
 import TaskLister from './CustomComponents/TaskLister/TaskLister';
 
 function App() {
-
-  const[display, setDisplay]= useState('true');
+  
+  const [display, setDisplay]=useState(true);
 
   return (
     <div className="App"> 
         <div className="App-Left">
-          <div className='App-Left-Top' display={display}>
-          <AddTask />
+          <div className='App-Left-Top'>
+          <AddTask display={display} setDisplay={setDisplay} />
           </div>
-          <div className='App-Left-Bottom' display={display} setDisplay={setDisplay}>
-              <AddButton />
+          <div className='App-Left-Bottom'>
+              <AddButton display={display} setDisplay={setDisplay}/>
           </div>
           
         </div>
