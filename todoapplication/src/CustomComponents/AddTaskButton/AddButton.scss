@@ -1,0 +1,17 @@
+.Add-Btn{
+    height: 60px;
+    width: 60px;
+    background-image: url('../../ImageContents/plusadd.jfif');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Add-Btn:hover{
+    height: 50px;
+    width: 50px;
+    margin-top:5px;
+}
+

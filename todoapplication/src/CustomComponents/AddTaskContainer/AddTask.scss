@@ -55,9 +55,18 @@
     border-radius: 25px;
     padding-top: 10px;
     color: rgb(228, 224, 215);
-    text-shadow: 1px 1px rgb(40, 40, 29);
+    text-shadow: 1px 1px rgb(30, 30, 28);
     border: 1px solid rgb(168, 84, 5);
     cursor: pointer;
+    font-weight: bold;
+
+}
+
+.Task-Container-Add-Btn:hover{
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: small;
 
 }
 .InputBox-Title{
@@ -104,8 +113,3 @@
 
 }
 
-.Task-Container-Add-Btn:hover{
-    width: 180px;
-    height: 30px;
-    margin-top: 5px;
-}
