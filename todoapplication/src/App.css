@@ -36,8 +36,5 @@
   height: 98vh;
   width: 38%;
   background-color: rgba(33, 4, 4, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  overflow-y: scroll;
-  padding-bottom: 15px;
+
 }

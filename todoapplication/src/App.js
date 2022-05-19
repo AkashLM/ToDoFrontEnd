@@ -2,11 +2,12 @@ import './App.css';
 import AddTask from './CustomComponents/AddTaskContainer/AddTask';
 import AddButton from './CustomComponents/AddTaskButton/AddButton';
 import { useState } from 'react';
-import TaskLister from './CustomComponents/TaskLister/TaskLister';
+import AddedTask from './CustomComponents/AddedTask/AddedTask';
 
 function App() {
   
   const [display, setDisplay]=useState(true);
+
 
   return (
     <div className="App"> 
@@ -19,18 +20,10 @@ function App() {
           </div>
           
         </div>
-        <div className="App-Middle">m</div>
+        <div className="App-Middle"></div>
 
         <div className="App-Right">
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
-          <TaskLister />
+          < AddedTask  />
         </div>
 
        </div>

@@ -20,11 +20,10 @@ const AddTask = (Props) => {
       descr: { descR },
       time: { time },
     };
+
     setDisplay(false);
 
   }
-
-  
   console.log(display);
 
   return (
