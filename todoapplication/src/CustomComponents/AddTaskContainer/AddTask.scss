@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet');
+
+.Task-Container{
+    height: 350px;
+    width: 300px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(132,132,191,1) 35%, rgba(1,35,42,1) 100%);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+.Task-Container-Header{
+    height: 40px;
+    width: 300px;
+    // background-color: rgb(24, 16, 232);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: rgb(228, 224, 215);
+    text-shadow: 2px 2px rgb(40, 40, 29);
+}
+
+.Task-Container-Add-Title{
+    height: 50px;
+    width: 300px;
+    // background-color: rgb(23, 234, 90);
+
+
+}
+.Task-Container-Add-Desc{
+    height: 120px;
+    width: 300px;
+    // background-color: rgb(229, 12, 149);
+
+}
+.Task-Container-Add-Timer{
+    height: 50px;
+    width: 300px;
+    // background-color: rgb(56, 248, 235);
+
+}
+.Task-Container-Add-Btn{
+    height: 35px;
+    width: 200px;
+    background: rgb(255,255,255);
+    background: linear-gradient(304deg, rgba(255,255,255,1) 0%, rgba(245,139,10,1) 8%, rgba(248,174,84,1) 74%, rgba(255,255,255,1) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 10px;
+    color: rgb(228, 224, 215);
+    text-shadow: 1px 1px rgb(40, 40, 29);
+    border: 1px solid rgb(168, 84, 5);
+    cursor: pointer;
+
+}
+.InputBox-Title{
+      height: 30px;
+      width: 240px;
+      border: none;
+      outline: none;
+      margin-top: 10px;
+      margin-right: auto;
+      margin-left:25px;
+      border-radius: 2px;
+    //   padding-left: 10px;
+        text-align: center;
+        background-color: rgb(233, 231, 231);
+        // font-family: 'Cairo', sans-serif;
+        color: rgb(90, 74, 74);
+        font-size: 20px;
+
+}
+
+.Desc-area{
+    margin-top: 5px;
+    margin-left:23px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(233, 231, 231);
+
+
+}
+
+.Date-Time{
+   margin-left: 23px;
+   height: 30px;
+   width: 250px;
+   text-align: center;
+   outline: none;
+   border: none;
+   border-radius: 2px;
+   color: rgb(116, 108, 108);
+   background-color: rgb(233, 231, 231);
+   cursor: pointer;
+
+}
+
+.Task-Container-Add-Btn:hover{
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+}
